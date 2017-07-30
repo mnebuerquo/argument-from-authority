@@ -33,7 +33,6 @@ cd "$PROJECT"
 sed -i'.bak' -e "s/TITLE/$TITLE/g" *
 rm *.bak
 
-#cd "$PROJECT"
-#git init
-#git add ./
-#git commit -m "Initial Commit"
+git init
+git add ./
+git commit -m "Initial Commit"
