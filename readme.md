@@ -49,6 +49,17 @@ the Github Pages branch to 'master'. The 'index.html' page in your repo will
 allow the presentation to run when served from Github Pages with no more
 configuration from you.
 
+## Common Pitfalls
+
+The slide separators `---` or incremental slide separators `--` may not
+render correctly if followed by additional whitespace on the same line.
+Also, remember the newline both before and after the separators.
+
+Another difficulty is determining how much content can go on a single slide.
+This gets a little easier with practice, but you have to preview the content
+to be sure. I have found [Remarkize](https://remarkjs.com/remarkise) to be
+very useful for a quick preview.
+
 ## Attribution
 
 The 'readme.md' file created by default in your presentation repo contains a
